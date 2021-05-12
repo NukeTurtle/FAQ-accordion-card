@@ -52,6 +52,7 @@ hr {
   font-size: 13px;
   padding: 15px 0 15px 0;
   transition: all 0.5s ease;
+  cursor: default;
 }
 .question:hover{
   color: hsl(238, 29%, 16%);
@@ -98,6 +99,9 @@ hr {
   .right{
     margin-left: 20px;
     width: 100%;
+    height: 80%;
+    position: relative;
+    top: -140px;
   }
   h1{
     padding-bottom: 10px;
@@ -106,7 +110,7 @@ hr {
     display: block;
     z-index: 1;
     position: relative;
-    top: -160px;
+    top: -20px;
     margin: none;
   }
 }
