@@ -21,8 +21,8 @@ body{
   background: white;
   border-radius: 20px;
   overflow: hidden;
-  height: 500px;
   width: 1000px;
+  display: inline-table;
 }
 .left{
   width: 50%;
@@ -93,8 +93,7 @@ hr {
     margin: 25px;
     overflow:visible;
     width: 316px;
-    height: 450px;
-    padding-top: none;
+    padding-top: 0;
   }
   .right{
     margin-left: 20px;
@@ -111,6 +110,6 @@ hr {
     z-index: 1;
     position: relative;
     top: -20px;
-    margin: none;
+    margin: 0;
   }
 }
